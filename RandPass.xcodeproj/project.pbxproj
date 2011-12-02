@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96FEE47513DAA3E70078DF79 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FEE47413DAA3E70078DF79 /* Cocoa.framework */; };
+		96FEE47F13DAA3E70078DF79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96FEE47D13DAA3E70078DF79 /* InfoPlist.strings */; };
+		96FEE48113DAA3E70078DF79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEE48013DAA3E70078DF79 /* main.m */; };
+		96FEE48513DAA3E70078DF79 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 96FEE48313DAA3E70078DF79 /* Credits.rtf */; };
+		96FEE48813DAA3E70078DF79 /* RandPassAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEE48713DAA3E70078DF79 /* RandPassAppDelegate.m */; };
+		96FEE48B13DAA3E70078DF79 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FEE48913DAA3E70078DF79 /* MainMenu.xib */; };
+		96FEE49313DAA3E70078DF79 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FEE49213DAA3E70078DF79 /* SenTestingKit.framework */; };
+		96FEE49413DAA3E70078DF79 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FEE47413DAA3E70078DF79 /* Cocoa.framework */; };
+		96FEE4AB13DAADCD0078DF79 /* NumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEE4AA13DAADCD0078DF79 /* NumberField.m */; };
+		96FEE4B613DB710D0078DF79 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 96FEE4B513DB710D0078DF79 /* Icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96FEE49513DAA3E70078DF79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96FEE46713DAA3E60078DF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96FEE46F13DAA3E70078DF79;
+			remoteInfo = RandPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96FEE47013DAA3E70078DF79 /* RandPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FEE47413DAA3E70078DF79 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		96FEE47713DAA3E70078DF79 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		96FEE47813DAA3E70078DF79 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		96FEE47913DAA3E70078DF79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96FEE47C13DAA3E70078DF79 /* RandPass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandPass-Info.plist"; sourceTree = "<group>"; };
+		96FEE47E13DAA3E70078DF79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96FEE48013DAA3E70078DF79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96FEE48213DAA3E70078DF79 /* RandPass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandPass-Prefix.pch"; sourceTree = "<group>"; };
+		96FEE48413DAA3E70078DF79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		96FEE48613DAA3E70078DF79 /* RandPassAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandPassAppDelegate.h; sourceTree = "<group>"; };
+		96FEE48713DAA3E70078DF79 /* RandPassAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandPassAppDelegate.m; sourceTree = "<group>"; };
+		96FEE48A13DAA3E70078DF79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		96FEE49113DAA3E70078DF79 /* RandPassTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandPassTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FEE49213DAA3E70078DF79 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		96FEE4A913DAADCD0078DF79 /* NumberField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberField.h; sourceTree = "<group>"; };
+		96FEE4AA13DAADCD0078DF79 /* NumberField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberField.m; sourceTree = "<group>"; };
+		96FEE4B513DB710D0078DF79 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		96FEE4B713DB762E0078DF79 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96FEE46D13DAA3E70078DF79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FEE47513DAA3E70078DF79 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FEE48D13DAA3E70078DF79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FEE49313DAA3E70078DF79 /* SenTestingKit.framework in Frameworks */,
+				96FEE49413DAA3E70078DF79 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96FEE46513DAA3E60078DF79 = {
+			isa = PBXGroup;
+			children = (
+				96FEE4B713DB762E0078DF79 /* Icon.icns */,
+				96FEE47A13DAA3E70078DF79 /* RandPass */,
+				96FEE47313DAA3E70078DF79 /* Frameworks */,
+				96FEE47113DAA3E70078DF79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96FEE47113DAA3E70078DF79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96FEE47013DAA3E70078DF79 /* RandPass.app */,
+				96FEE49113DAA3E70078DF79 /* RandPassTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96FEE47313DAA3E70078DF79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96FEE47413DAA3E70078DF79 /* Cocoa.framework */,
+				96FEE49213DAA3E70078DF79 /* SenTestingKit.framework */,
+				96FEE47613DAA3E70078DF79 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96FEE47613DAA3E70078DF79 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96FEE47713DAA3E70078DF79 /* AppKit.framework */,
+				96FEE47813DAA3E70078DF79 /* CoreData.framework */,
+				96FEE47913DAA3E70078DF79 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		96FEE47A13DAA3E70078DF79 /* RandPass */ = {
+			isa = PBXGroup;
+			children = (
+				96FEE48613DAA3E70078DF79 /* RandPassAppDelegate.h */,
+				96FEE48713DAA3E70078DF79 /* RandPassAppDelegate.m */,
+				96FEE48913DAA3E70078DF79 /* MainMenu.xib */,
+				96FEE4A913DAADCD0078DF79 /* NumberField.h */,
+				96FEE4AA13DAADCD0078DF79 /* NumberField.m */,
+				96FEE4B413DB70F90078DF79 /* Resources */,
+				96FEE47B13DAA3E70078DF79 /* Supporting Files */,
+			);
+			path = RandPass;
+			sourceTree = "<group>";
+		};
+		96FEE47B13DAA3E70078DF79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96FEE47C13DAA3E70078DF79 /* RandPass-Info.plist */,
+				96FEE47D13DAA3E70078DF79 /* InfoPlist.strings */,
+				96FEE48013DAA3E70078DF79 /* main.m */,
+				96FEE48213DAA3E70078DF79 /* RandPass-Prefix.pch */,
+				96FEE48313DAA3E70078DF79 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96FEE4B413DB70F90078DF79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96FEE4B513DB710D0078DF79 /* Icon.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96FEE46F13DAA3E70078DF79 /* RandPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FEE4A313DAA3E70078DF79 /* Build configuration list for PBXNativeTarget "RandPass" */;
+			buildPhases = (
+				96FEE46C13DAA3E70078DF79 /* Sources */,
+				96FEE46D13DAA3E70078DF79 /* Frameworks */,
+				96FEE46E13DAA3E70078DF79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandPass;
+			productName = RandPass;
+			productReference = 96FEE47013DAA3E70078DF79 /* RandPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96FEE49013DAA3E70078DF79 /* RandPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FEE4A613DAA3E70078DF79 /* Build configuration list for PBXNativeTarget "RandPassTests" */;
+			buildPhases = (
+				96FEE48C13DAA3E70078DF79 /* Sources */,
+				96FEE48D13DAA3E70078DF79 /* Frameworks */,
+				96FEE48E13DAA3E70078DF79 /* Resources */,
+				96FEE48F13DAA3E70078DF79 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96FEE49613DAA3E70078DF79 /* PBXTargetDependency */,
+			);
+			name = RandPassTests;
+			productName = RandPassTests;
+			productReference = 96FEE49113DAA3E70078DF79 /* RandPassTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96FEE46713DAA3E60078DF79 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 96FEE46A13DAA3E60078DF79 /* Build configuration list for PBXProject "RandPass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96FEE46513DAA3E60078DF79;
+			productRefGroup = 96FEE47113DAA3E70078DF79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96FEE46F13DAA3E70078DF79 /* RandPass */,
+				96FEE49013DAA3E70078DF79 /* RandPassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96FEE46E13DAA3E70078DF79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FEE47F13DAA3E70078DF79 /* InfoPlist.strings in Resources */,
+				96FEE48513DAA3E70078DF79 /* Credits.rtf in Resources */,
+				96FEE48B13DAA3E70078DF79 /* MainMenu.xib in Resources */,
+				96FEE4B613DB710D0078DF79 /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FEE48E13DAA3E70078DF79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96FEE48F13DAA3E70078DF79 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96FEE46C13DAA3E70078DF79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FEE48113DAA3E70078DF79 /* main.m in Sources */,
+				96FEE48813DAA3E70078DF79 /* RandPassAppDelegate.m in Sources */,
+				96FEE4AB13DAADCD0078DF79 /* NumberField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FEE48C13DAA3E70078DF79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96FEE49613DAA3E70078DF79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96FEE46F13DAA3E70078DF79 /* RandPass */;
+			targetProxy = 96FEE49513DAA3E70078DF79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96FEE47D13DAA3E70078DF79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FEE47E13DAA3E70078DF79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96FEE48313DAA3E70078DF79 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FEE48413DAA3E70078DF79 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		96FEE48913DAA3E70078DF79 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FEE48A13DAA3E70078DF79 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96FEE4A113DAA3E70078DF79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96FEE4A213DAA3E70078DF79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96FEE4A413DAA3E70078DF79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RandPass/RandPass-Prefix.pch";
+				INFOPLIST_FILE = "RandPass/RandPass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96FEE4A513DAA3E70078DF79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RandPass/RandPass-Prefix.pch";
+				INFOPLIST_FILE = "RandPass/RandPass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		96FEE4A713DAA3E70078DF79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RandPass.app/Contents/MacOS/RandPass";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RandPass/RandPass-Prefix.pch";
+				INFOPLIST_FILE = "RandPassTests/RandPassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		96FEE4A813DAA3E70078DF79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RandPass.app/Contents/MacOS/RandPass";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RandPass/RandPass-Prefix.pch";
+				INFOPLIST_FILE = "RandPassTests/RandPassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96FEE46A13DAA3E60078DF79 /* Build configuration list for PBXProject "RandPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FEE4A113DAA3E70078DF79 /* Debug */,
+				96FEE4A213DAA3E70078DF79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FEE4A313DAA3E70078DF79 /* Build configuration list for PBXNativeTarget "RandPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FEE4A413DAA3E70078DF79 /* Debug */,
+				96FEE4A513DAA3E70078DF79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FEE4A613DAA3E70078DF79 /* Build configuration list for PBXNativeTarget "RandPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FEE4A713DAA3E70078DF79 /* Debug */,
+				96FEE4A813DAA3E70078DF79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96FEE46713DAA3E60078DF79 /* Project object */;
+}
